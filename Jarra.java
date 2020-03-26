@@ -8,7 +8,15 @@ public class Jarra {//variables de instancia
         }
         this.capacidad=capacidadInicial;
     }
-    // Aquí vendrán después los métodos creados en la siguiente fase
+    
+    public boolean llena() {
+    	return this.cantidad = this.capacidad;
+    }
+    
+    public boolean vacia() {
+    	return this.cantidad = 0;
+    }
+    
     public void metodoComunitario(){
 // Comentario incluido para pruebas
         System.out.println("Aqui escribimos todos");
